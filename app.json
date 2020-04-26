@@ -1,6 +1,6 @@
 {
-  "name": "angular2-express-slim",
-  "description": "Starter application of Angular2 and Express",
-  "repository": "https://github.com/vladotesanovic/angular2-express-slim",
-  "keywords": ["angular2", "express", "node"]
+  "name": "Angular 2 Heroku Boiler Plate",
+  "description": "The bare minimum starter code that allows users to easily deploy Angular 2 projects powered by Node and Express to Heroku.",
+  "repository": "https://github.com/AryanJ-NYC/angular-2-heroku-boilerplate",
+  "keywords": ["node", "express", "boilerplate", "angular", "angular-2"]
 }

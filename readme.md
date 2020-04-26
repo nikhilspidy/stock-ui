@@ -1,34 +1,40 @@
-## Angular2 Express slim starter
-### Heroku ready wih SystemJS builder
+# Angular Heroku Boilerplate
+This README outlines how to quickly deploy a project to Heroku using same files used in [angular.io](https://angular.io) tutorials. This project is meant to be as minimal as possible.
 
-- Angular 2 ( https://angular.io/docs/ts/latest/quickstart.html )
-- Express ( from generator )
+Please note that with the release of Angular 6, this repository will stop receiving updates. All users should instead use the [Angular CLI Heroku boilerplate](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate).
 
-https://express-angular2-slim.herokuapp.com/
+## Prerequisites
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## Installation
+* `git clone https://github.com/AryanJ-NYC/angular-2-heroku-boilerplate.git <your-project-name>`
+* `cd <your-project-name>`
+* `npm install`
 
-## Install
-```bash
-git clone https://github.com/vladotesanovic/angular2-express-slim
-cd angular2-express-slim
+## Running / Development
+### Running locally
+* `npm start`
+* Visit your app at [http://localhost:8080](http://localhost:8080)
+  * This should be similar to my [Heroku site](https://angular-2-heroku-boilerplate.herokuapp.com/)
 
-# Install dependencies
-npm install
+### Deploying to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-# run and watch for changes in .ts files
-npm start
+**OR**
 
-# Applciation url: http://localhost:3000
-```
+* Install [Homebrew](https://brew.sh/)
+* `brew install heroku`
+* `heroku create <your-project-name>`
+* `git push heroku master`
+* `heroku open`
 
-## Run in production mod
-```bash
-npm run build:prod
+## Support
+Like this boilerplate? Support my developments.
 
-npm run prod
-```
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/AryanJ)
 
-## If you are looking for Webpack version
+Please star this repository to help it gain exposure.
 
-https://github.com/vladotesanovic/angular2-express-starter
+## Other Boilerplates
+Looking for an Angular CLI boilerplate?  Check out [this repository](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate).
